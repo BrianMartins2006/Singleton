@@ -1,16 +1,33 @@
-# Compiled class file
+##############################
+# Eclipse Files
+##############################
+
+# Diretórios específicos do Eclipse
+/.settings/
+/bin/
+/tmp/
+
+# Arquivos do Eclipse
+.classpath
+.project
+
+##############################
+# Java
+##############################
+
+# Arquivos compilados
 *.class
 
-# Log file
+# Arquivos de log
 *.log
 
-# BlueJ files
+# Arquivos de configurações diversos
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+##############################
+# Pacotes / Artefatos
+##############################
 
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -19,6 +36,28 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+##############################
+# J2ME (se usar)
+##############################
+
+.mtj.tmp/
+
+##############################
+# JVM Crash Logs
+##############################
+
 hs_err_pid*
 replay_pid*
+
+##############################
+# Sistema Operacional
+##############################
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
