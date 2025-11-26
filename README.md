@@ -6,7 +6,7 @@ Em Singleton, existem duas maneiras de criar uma instância.
 pré-inicializado - significa que esta instância será instanciada antes que alguém chame o método getInstance().
 lazy-initialized - significa que esta instância será instanciada durante a primeira chamada do método getInstance().
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 Neste diagrama UML, o padrão Singleton possui as seguintes partes:
 
